@@ -242,3 +242,12 @@ C:\Users\PC\Desktop\manofthematch\manofthematch\obj\Debug\manofthematch.csprojRe
 C:\Users\PC\Desktop\manofthematch\manofthematch\obj\Debug\manofthematch.csproj.CoreCompileInputs.cache
 C:\Users\PC\Desktop\manofthematch\manofthematch\obj\Debug\manofthematch.dll
 C:\Users\PC\Desktop\manofthematch\manofthematch\obj\Debug\manofthematch.pdb
+C:\Users\PC\Desktop\manofthematch\manofthematch\bin\System.Web.Cors.dll
+C:\Users\PC\Desktop\manofthematch\manofthematch\bin\System.Web.Http.Cors.dll
+C:\Users\PC\Desktop\manofthematch\manofthematch\bin\Umbraco.IdentityExtensions.dll
+C:\Users\PC\Desktop\manofthematch\manofthematch\bin\Umbraco.RestApi.dll
+C:\Users\PC\Desktop\manofthematch\manofthematch\bin\WebApi.Hal.dll
+C:\Users\PC\Desktop\manofthematch\manofthematch\bin\System.Web.Http.Cors.xml
+C:\Users\PC\Desktop\manofthematch\manofthematch\bin\Umbraco.IdentityExtensions.pdb
+C:\Users\PC\Desktop\manofthematch\manofthematch\bin\Umbraco.RestApi.pdb
+C:\Users\PC\Desktop\manofthematch\manofthematch\bin\WebApi.Hal.pdb
