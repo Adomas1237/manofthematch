@@ -238,7 +238,6 @@ C:\Users\PC\Desktop\manofthematch\manofthematch\bin\Umbraco.ModelsBuilder.pdb
 C:\Users\PC\Desktop\manofthematch\manofthematch\bin\umbraco.providers.xml
 C:\Users\PC\Desktop\manofthematch\manofthematch\bin\Umbraco.Web.UI.xml
 C:\Users\PC\Desktop\manofthematch\manofthematch\bin\UmbracoExamine.xml
-C:\Users\PC\Desktop\manofthematch\manofthematch\obj\Debug\manofthematch.csprojResolveAssemblyReference.cache
 C:\Users\PC\Desktop\manofthematch\manofthematch\obj\Debug\manofthematch.csproj.CoreCompileInputs.cache
 C:\Users\PC\Desktop\manofthematch\manofthematch\obj\Debug\manofthematch.dll
 C:\Users\PC\Desktop\manofthematch\manofthematch\obj\Debug\manofthematch.pdb
@@ -251,3 +250,4 @@ C:\Users\PC\Desktop\manofthematch\manofthematch\bin\System.Web.Http.Cors.xml
 C:\Users\PC\Desktop\manofthematch\manofthematch\bin\Umbraco.IdentityExtensions.pdb
 C:\Users\PC\Desktop\manofthematch\manofthematch\bin\Umbraco.RestApi.pdb
 C:\Users\PC\Desktop\manofthematch\manofthematch\bin\WebApi.Hal.pdb
+C:\Users\PC\Desktop\manofthematch\manofthematch\obj\Debug\manofthematch.csprojResolveAssemblyReference.cache
