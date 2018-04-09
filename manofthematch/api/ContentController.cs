@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using Umbraco.Web.WebApi;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using Umbraco.Core.Models;
+using Umbraco.Core;
+using Umbraco.Web;
 
 namespace manofthematch.Core.Controllers.WebAPI
 {
@@ -19,15 +23,44 @@ namespace manofthematch.Core.Controllers.WebAPI
             result result = new result();
             var cs = Services.ContentService;
             // getting children of sports
-            var content = cs.GetDescendants(1076);
-          
+            var content = cs.GetById(1091);
             
-            //foreach (object item in content)
+            dynamic obj = new JObject();
+
+            //example place
+
+            //nesting content
+            //obj.key2 = "value2";
+            //obj.key1 = new JObject
             //{
-            //    result.Name = item;
+            //    {"key3", "asdaddd" }
+            //};
+            //obj.key1.key3 = new JObject
+            //{
+            //    {"key4", "dddddd" }
+            //};
+            //result.Name = item.GetValue("imagepost");
+
+
+            //getting images
+            //var j = item.GetValue<Udi>("imagepost");
+            //var smt = Umbraco.GetIdForUdi(j);
+            //var umbHelper = new UmbracoHelper(UmbracoContext.Current);
+            //var k = umbHelper.Media(smt);
+            //result.Name = k.Url;
+            
+            //looping children of sports node
+            //foreach (var item in content)
+            //{   
+            //    var j 
+                //obj.key = j;
+            
+           
+
+                
             //}
 
-           
+
             string output = JsonConvert.SerializeObject(content);
 
 
@@ -35,9 +68,11 @@ namespace manofthematch.Core.Controllers.WebAPI
 
            
         }
+      
         public class result
         {
-            public int Id { get; set; }
+         
+         
             public object Name { get; set; }
          
         }
