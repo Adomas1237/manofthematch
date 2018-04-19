@@ -19,7 +19,7 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "bfef58681057adcd")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "df3fe6752985cc0d")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
 
 namespace Umbraco.Web.PublishedContentModels
@@ -183,19 +183,19 @@ namespace Umbraco.Web.PublishedContentModels
 		///<summary>
 		/// image team
 		///</summary>
-		[ImplementPropertyType("imageClub")]
-		public IPublishedContent ImageClub
+		[ImplementPropertyType("imageTeam")]
+		public IPublishedContent ImageTeam
 		{
-			get { return this.GetPropertyValue<IPublishedContent>("imageClub"); }
+			get { return this.GetPropertyValue<IPublishedContent>("imageTeam"); }
 		}
 
 		///<summary>
 		/// name team
 		///</summary>
-		[ImplementPropertyType("nameClub")]
-		public string NameClub
+		[ImplementPropertyType("nameTeam")]
+		public string NameTeam
 		{
-			get { return this.GetPropertyValue<string>("nameClub"); }
+			get { return this.GetPropertyValue<string>("nameTeam"); }
 		}
 	}
 
